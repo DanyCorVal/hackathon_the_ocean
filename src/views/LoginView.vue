@@ -53,8 +53,6 @@
         };
         LoginService.login(data)
         .then(response => {
-          console.log(response);
-          console.log(response.data.encontrado);
 
           if(response.data.encontrado===true){
             this.$router.push({ name: 'home' })
