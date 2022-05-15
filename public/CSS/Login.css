@@ -1,0 +1,95 @@
+.body-sign{
+    background-image: url(../Assets/login-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    image-resolution: calc(100%);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.body-sign::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(40,55,37, .26);
+    overflow: hidden;
+}
+.form_sign{
+    text-align: center;
+    border-radius: 10px;
+    margin: 7% auto;
+    box-shadow: 10px 10px 10px;
+    position: absolute;
+    background-color: rgba(16,16,16, .16);
+    z-index: 10;
+}
+#log_in{
+    width: 30%;
+    height: 80%;
+    left: 35%;
+}
+.form_sign .mb-3{
+    margin: 10% 2%;
+}
+.form_sign h1{
+    color: #eee;
+    margin-top: 5%;
+    font-size: 32px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+  .formularioEmail{
+    position: absolute;
+      top: 150px;
+      left: 160px;
+  }
+  
+  .formulariopassword{
+    position: absolute;
+      top: 230px;
+      left: 190px;
+  }
+  .btn-login{
+      background: #137999;
+      border: 0;
+      border-radius: 50px;
+      padding: 10px;
+      color: #eee;
+  }
+  .btn-login:hover{
+    background: #eee;
+    color: #137999;
+  }
+  .form-label{
+      color: #eee;
+  }
+  .register{
+      color: #eee;
+      text-decoration: none;
+      float: right;
+      text-align: right;
+      text-transform: capitalize;
+  }
+  .register:hover{
+      color: #b39081;
+  }
+  #log_in .register{
+      margin-top: 10%;
+      padding-right: 3%;
+  }
+
+  /*SignUp*/
+  #signUp{
+      width: 60%;
+      height: 80%;
+      left: 20%;
+      padding: 0 1.5%;
+  }
+  #signUp>.col-md{
+    margin-top: 3%;
+  }
+  #signUp .row{
+      margin-top: 3%;
+  }
