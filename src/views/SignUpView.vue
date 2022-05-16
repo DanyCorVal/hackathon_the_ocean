@@ -103,7 +103,7 @@
             this.$forceUpdate();
 
             setTimeout(function(){
-                window.location.href = '/login';
+                window.location.href = '/#/login';
             }, 3000);
           })
           .catch(e => {
