@@ -99,14 +99,11 @@
         UserService.create(data)
         .then(response => {
 
-            console.log(response);
-            console.log(response.data.message);
-
             this.message = response.data.message;
             this.$forceUpdate();
 
             setTimeout(function(){
-                window.location.href = '/login#/login';
+                window.location.href = '/login';
             }, 3000);
           })
           .catch(e => {
