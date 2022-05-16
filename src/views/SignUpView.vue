@@ -90,7 +90,7 @@
           lastName: this.user.lastName,
           username: this.user.username,
           password: this.user.password,
-          accessLevel: 1,
+          accessLevel: "1",
           profileId: 1
         };
         UserService.create(data)
