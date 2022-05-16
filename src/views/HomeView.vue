@@ -1,5 +1,5 @@
 <template>
-      <!-- Hero -->
+  <!-- Hero -->
   <div class="Hero">
     <h1>Embajadores por el mar</h1>
   </div>
@@ -8,7 +8,7 @@
     
     <section class="Tabs" id="Project">
       <h1>Project</h1>
-      <h3>something about project</h3>
+      <h3>Our project is to create a web portal where a catalog of protected fishing areas is displayed, the portal will allow anyone to become an ambassador of the areas and select the way in which they will support said area</h3>
     </section>
 
     <section class="Tabs" id="Enterprise">
@@ -18,11 +18,10 @@
           <div class="col">
             
             <div class="card bg-dark text-white">
-              <img src="./../../public/Assets/slides.jpg" class="card-img" alt="...">
+              <img src="./../../public/Assets/aeroMexico.jpg" class="card-img" alt="...">
               <div class="card-img-overlay">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text">Last updated 3 mins ago</p>
+                <h5 class="card-title"><b>AEROMÉXICO</b></h5>
+                <p class="card-text"><b>With its Vuela Verde program, the airline invites its customers and collaborators to make a contribution of $35.00 when purchasing their flight, the proceeds going to programs that help reduce greenhouse gas emissions.</b></p>
               </div>
             </div>
 
@@ -31,11 +30,10 @@
           <div class="col">
 
             <div class="card bg-dark text-white">
-              <img src="./../../public/Assets/slides.jpg" class="card-img" alt="...">
+              <img src="./../../public/Assets/bimbo.jpg" class="card-img" alt="...">
               <div class="card-img-overlay">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text">Last updated 3 mins ago</p>
+                <h5 class="card-title"><b> GRUPO BIMBO</b></h5>
+                <p class="card-text"> <b>Bimbo has 99 wastewater treatment plants, reusing 76% of the treated water last year. In addition, 73 of its work centers maintain rainwater harvesting systems that are subsequently stored and used.</b></p>
               </div>
             </div>
 
@@ -44,11 +42,10 @@
           <div class="col">
 
             <div class="card bg-dark text-white">
-              <img src="./../../public/Assets/slides.jpg" class="card-img" alt="...">
+              <img src="./../../public/Assets/cemex.jpg" class="card-img"  alt="...">
               <div class="card-img-overlay">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text">Last updated 3 mins ago</p>
+                <h5 class="card-title"><b>CEMEX</b></h5>
+                <p class="card-text"> <b>They implement conservation programs in eight countries, provide environmental education on habitat and biodiversity conservation, and operate 26 certified preservation projects.</b></p>
               </div>
             </div>
 
@@ -71,26 +68,26 @@
         <div class="carousel-inner">
           
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="../../public/Assets/slides.jpg" class="d-block w-100" alt="...">
+            <img src="../../public/Assets/arrecifes.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5>Natural Areas</h5>
+              <p>Protected areas that we have in Mexico</p>
             </div>
           </div>
 
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="../../public/Assets/slides.jpg" class="d-block w-100" alt="...">
+            <img src="../../public/Assets/Vaquita_Marina.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5>Vaquita Marina</h5>
+              <p>The vaquita marina is an endangered species that needs our help</p>
             </div>
           </div>
 
           <div class="carousel-item">
-            <img src="../../public/Assets/slides.jpg" class="d-block w-100" alt="...">
+            <img src="../../public/Assets/area_natural.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5>Reefs</h5>
+              <p>The environmental impact we have made is very important and with your help we can make a good impact on the ocean.</p>
             </div>
           </div>
 
@@ -109,35 +106,40 @@
       </div>
     </section>
 
+    <div class="title">
+
+    </div>
+
     <section class="Tabs" id="Embassadors">
-      <!--<h1>Embassadors</h1>
-      <h3>something about embassadors</h3>-->
-      
+      <h1>Help the maritime ecosystem</h1>
+    
+      <h3>If you help the ecosystem we can save our little friends</h3>
       <div id="gallery">
-        <div><img src="https://picsum.photos/600/600/?image=512"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=513"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=514"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=515"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=516"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=517"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=518"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=519"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=520"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=521"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=522"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=523"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=524"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=525"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=526"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=527"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=528"/></div>
-        <div><img src="https://picsum.photos/600/600/?image=529"/></div>
+        <div><img src="https://www.tekcrispy.com/wp-content/uploads/2018/12/Acidificaci%C3%B3n-Oc%C3%A9anos.jpg"/></div>
+        <div><img src="https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/jbcyk9ugcxa5kwwging81cw6gw/AV_SPOR_2015_Pejarakan_Bali_CopyrightPURProjet_05?t=crop&x=0.000&y=0.144&width=1.000&height=0.750&outputWidth=1202&outputHeight=676"/></div>
+        <div><img src="https://www.semana.com/resizer/uBINeLt0PRTmBf39BVZ--2pn2TE=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/U5KPOEIT7ZA43KGININLOI7BMY.jpg"/></div>
+        <div><img src="https://www.ambientum.com/wp-content/uploads/2020/09/ecosistema-marino.jpg"/></div>
+        <div><img src="https://www.renovablesverdes.com/wp-content/uploads/2021/09/Ecosistemas-marinos.jpg"/></div>
+        <div><img src="https://s.yimg.com/ny/api/res/1.2/s3kROcB3ZTIagXyGRQu_Rg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://s.yimg.com/uu/api/res/1.2/gy6XPpQtGn.Qt1gwP_fOmA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/es/lanacion.com.ar/91c6e76cbfebcf0b40ea73062661eecd"/></div>
+        <div><img src="https://www.gob.mx/cms/uploads/image/file/418612/12717687_1985518868340772_6065080226008542563_n.jpg"/></div>
+        <div><img src="https://diccionarioactual.com/wp-content/uploads/2017/07/ecosistema-acu%C3%A1tico.jpg"/></div>
+        <div><img src="https://decologia.info/wp-content/uploads/2019/01/bioma-del-arrecife-de-coral.3.jpg"/></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgz3KdxCIJqxgppcvN4rm0okXrmrd_o8KBdw&usqp=CAU"/></div>
+        <div><img src="https://www.semana.com/resizer/mGa5Et2J6z4aMrYVz00l6ljPzXo=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/Z2KBSUYSOBBLBMRUECVDNAQEEE.jpg"/></div>
+        <div><img src="https://decologia.info/wp-content/uploads/2018/11/perdida-y-destruccion-del-habitat-marino-2.jpg"/></div>
+        <div><img src="https://static.dw.com/image/54298064_401.jpeg"/></div>
+        <div><img src="https://eresmedioambiente.com/wp-content/uploads/2020/06/ecosistemas-acuaticos.jpg"/></div>
+        <div><img src="https://www.un.org/sites/un2.un.org/files/styles/large-article-image-style-16-9/public/field/image/adele_pedder_3crop_1.jpg?itok=3z6gH-EY&c=59f2077ee1f23376dc7286b1d08ebf1d"/></div>
+        <div><img src="https://t2.ev.ltmcdn.com/es/posts/1/5/0/la_biodiversidad_marina_51_600.jpg"/></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDbwX7BGRZtUIw3u4jxaFwlD-bnEx7lePMcaEIO9sE0RPRmU2WfN3Gs7HCwgfA6TBnU1A&usqp=CAU"/></div>
+        <div><img src="https://www.tekcrispy.com/wp-content/uploads/2018/12/Acidificaci%C3%B3n.jpg"/></div>
       </div>
     </section>
 
     <section class="Tabs" id="BecomeEmbassadors">
-      <h1><router-link to="/SignUp">Become an Embassadors</router-link></h1>
-      <h3>something about become embassadors</h3>
+      
+      <h1> If you want to be part of this beautiful community and be an ambassador <router-link class="embassador" to="/SignUp">become an embassadors</router-link><br>
+      something about become embassadors</h1>
     </section>
 
   </main>
