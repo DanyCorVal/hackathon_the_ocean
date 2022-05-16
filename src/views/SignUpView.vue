@@ -55,7 +55,7 @@
             </div>
         </div>
 
-         <p>{message}</p>
+         <p>{{this.message}}</p>
 
         <div class="col-auto">
             <button type="submit" class="btn btn-login mb-3" @click="register">Confirm identity</button>
@@ -99,13 +99,15 @@
         UserService.create(data)
         .then(response => {
 
-            //console.log(response);
-            this.message = response.message;
+            console.log(response);
+            console.log(response.data.message);
+
+            this.message = response.data.message;
             this.$forceUpdate();
 
-              setTimeout(function(){
-                this.$router.push({ name: 'login' });
-            }, 5000);
+            setTimeout(function(){
+                window.location.href = '/login#/login';
+            }, 3000);
           })
           .catch(e => {
             console.log(e);
