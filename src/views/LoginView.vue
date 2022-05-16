@@ -55,7 +55,7 @@
         .then(response => {
 
           if(response.data.encontrado===true){
-            this.$router.push({ name: 'home' })
+            this.$router.push({ name: 'Dashboard' })
           }else{
             this.error = true;
           }
