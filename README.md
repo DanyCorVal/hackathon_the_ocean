@@ -29,8 +29,8 @@
   <p> Puedes revisar el repositorio del backend <a href= "https://github.com/cesargonzalez89/hackathon_the_ocean_webapi" > Aqui </a> </p><br>
   <p> Tambien puedes revisar nuestro portal <a href=https://wonderful-meadow-078842410.1.azurestaticapps.net/ > Aqui </a> </p><br>
   <p>Agregamos unas capturas de pantalla que te pueden ayudar para ser parte de este proyecto, en esta parte tenemos en home</p><br>
-  <img src="hackathon_the_ocean_webapp/public/Assets/SSHome.jpg">
+  <img src="https://github.com/cesargonzalez89/hackathon_the_ocean_webapp/blob/48956d21c4db973a58faaf908b502d90db8dd0de/public/Assets/SSHome.jpg">
   <p>en esta parte es el sign in aqui puedes registarrte para ser parte de este proyecto</p><br>
-  <img src="hackathon_the_ocean_webapp/public/Assets/SSSignin.jpg">
+  <img src="https://github.com/cesargonzalez89/hackathon_the_ocean_webapp/blob/48956d21c4db973a58faaf908b502d90db8dd0de/public/Assets/SSSignin.jpg">
   <p> y ya estas listo para poder participar ayudando a la fauna marina </p>
   
