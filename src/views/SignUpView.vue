@@ -55,6 +55,8 @@
             </div>
         </div>
 
+         <p>{message}</p>
+
         <div class="col-auto">
             <button type="submit" class="btn btn-login mb-3" @click="register">Confirm identity</button>
         </div>
@@ -79,7 +81,8 @@
           password: "",
           accessLevel: "",
           profileId: ""
-        }
+        },
+        message: ''
       };
     },
     methods: {
@@ -96,11 +99,18 @@
         UserService.create(data)
         .then(response => {
 
-            console.log(response);
+            //console.log(response);
+            this.message = response.message;
+            this.$forceUpdate();
 
+              setTimeout(function(){
+                this.$router.push({ name: 'login' });
+            }, 5000);
           })
           .catch(e => {
             console.log(e);
+            this.message = "Hubo un error";
+            this.$forceUpdate();
           });
       }
     }
