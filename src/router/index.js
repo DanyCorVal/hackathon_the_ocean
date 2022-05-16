@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import LoginView from '../views/LoginView.vue'
 import SignUpView from '../views/SignUpView.vue'
+import DashboardView from '../views/DashboardView.vue'
 
 const routes = [
   {
@@ -26,6 +27,11 @@ const routes = [
     path: '/SignUp',
     name: 'SignUp',
     component: SignUpView
+  },
+  {
+    path: '/Dashboard',
+    name: 'Dashboard',
+    component: DashboardView
   },
 ]
 
