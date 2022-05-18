@@ -1,6 +1,6 @@
 <h1>Hackathon the ocean</h1> 
   <p>Este proyecto se basa en la proteccion y preservacion de la fauna marina, en este proyecto trabajamos:  </p>   
-  <li> Carlos Guzman (@anonblue616) </li>  
+  <li> Carlos Guzman (@charlyguz) </li>  
   <li> Humberto Almazan (@HumbertoAlmaEstr)</li>
   <li> Raul Salomon (@RaulSalomonIgl)</li>
   <li> Jesus Cortez (@DanyCorVal)</li>
